@@ -1,0 +1,169 @@
+<!-- This is the startng of 100 days code challenge
+ Day 1
+ Basic HTML
+-->
+
+<!-- These are headings-->
+<h1>"Hello World"</h1>
+<h2>"Hello Matrix"</h2>
+<h3>"Hello Universe"</h3>
+<h4>"Hello 3d"</h4>
+<h5>"Hello from the other side"</h5>
+<h6>"Sayonara"</h6>
+
+<!-- This is paragraph-->
+<p>Very Intresting</p>
+
+<!-- This is main tag, it helps to find the main content of the page.-->
+<main>
+    <h1>Cartoons</h1>
+    <p> I love Scooby doo!</p>
+</main>
+
+<!-- This is image tag, helps to add images to website-->
+<img src = "https://bit.ly/fcc-relaxing-cat" alt = "A cat relaxing.">
+
+<!--This is anchor tag, helps to link content outside your page-->
+<a href = "https://freecatphotoapp.com ">More Cat Photos</a>
+
+<!-- Anchor tag also links internal contents of the page-->
+<a href = "#footer" target = "blank">"Jumps to the footer of the page</a>
+<!--assign a link's href attribute to #, the value of the id attribute for the element that you want to internally link to-->
+<footer id = "footer">It jumps here</footer>
+
+<!-- Nesting anchor tag within a paragraph-->
+<p>
+    View more <a href = "https://freecatphotoapp.com" target ="_blank">Cat Photos</a> and bless your soul.
+</p>
+
+<!--Make dead links using # Symbol, bcz we don't know where to link the element-->
+<a href = "#" target ="_blank">Cat Photos</a>
+
+<!--Turning an image into a link-->
+<a href = "#">
+    <img src = "https://bit.ly/fcc-relaxing-cat" alt = "A cat relaxing.">
+</a>
+
+<!-- Create blutted unordered list.-->
+<ul>
+    <li>I like chocolate milk.</li>
+    <li> I like chocolate ice cream.</li>
+    <li>I like coffee.</li>
+</ul>
+
+<!-- Creating ordered list-->
+<ol>
+    <li>I hate stupidity.</li>
+    <li>I hate ignorance.</li>
+    <li>I hate arrogance.</li>
+</ol>
+
+<!-- Create a text field, using input tag-->
+<input type = "text">
+
+<!-- Add placeholder text, to a Teext Field-->
+<input type = "text" placeholder = "find intresting stuff.">
+
+<!-- Creating a form element-->
+<form action = "https://freecatphotoapp.com/submit-cat-photo"></form>
+
+<!--Add submit button to a Form-->
+<button type = "submit">This button submits the form</button>
+
+<!-- Using HTML5  to require a field, user would not be able to submit the form until all fields of form are filled-->
+<input type = "text" placeholder = "find intresting stuff" required>
+
+<!--Create a set of radio buttons-->
+<label for = "Hide">
+   <input id = "Hide" type = "radio" name = "Hide-Seek"> Hide
+</label>
+<label for = "Seek">
+  <input id = "Seek" type = "radio" name = "Hide-Seek">Seek
+</label>
+<!-- radio buttons for questions where you want the user to only give you one answer out of multiple options.-->
+
+<!-- Create a set of checkboxes-->
+<label for ="Crazy">
+    <input id = "Crazy" type = "checkbox" name = "personality">Crazy
+</label>
+<label for = "Eccentric">
+    <input id = "Eccentric" type = "checkbox" name = "personality">Eccentric
+</label>
+<label for = "Genius">
+    <input id = "Genius" type = "checkbox" name = "persoanlity">Genius
+</label>
+<!-- Forms commonly use checkboxes for questions that may have more than one answer.-->
+
+<!--Use value attribute with radio buttons and checkboxes-->
+<label for ="Crazy">
+    <input id = "Crazy" type = "checkbox" name = "personality" value = "Crazy">Crazy
+</label>
+
+<label for = "Eccentric">
+    <input id = "Eccentric" type = "checkbox" name = "personality" value = "Crazy">Eccentric
+</label>
+
+<label for = "Genius">
+    <input id = "Genius" type = "checkbox" name = "persoanlity" value = "Genius">Genius
+</label>
+
+<label for = "Hide">
+   <input id = "Hide" type = "radio" name = "Hide-Seek" value = "Hide"> Hide
+</label>
+
+<label for = "Seek">
+  <input id = "Seek" type = "radio" name = "Hide-Seek" value = "Seek">Seek
+</label>
+<!--
+If you omit the value attribute, the submitted form data uses the default value, 
+which is on. In this scenario, if the user clicked the "indoor" option and submitted the form
+the resulting form data would be indoor-outdoor=on, which is not useful.
+ So the value attribute needs to be set to something to identify the option.
+-->
+
+<!-- Check Radio buttons and Checkboxes by Default-->
+<label for = "Genius">
+    <input id = "Genius" type = "checkbox" name = "persoanlity" value = "Genius" checked>Genius
+</label>
+
+<label for = "Seek">
+    <input id = "Seek" type = "radio" name = "Hide-Seek" value = "Seek" checked>Seek
+  </label>
+<!--It sets a checkbox or radio button to be checked by default using the checked attribute. -->  
+
+<!--Nest many elements  whitin a single div element-->
+<div>'
+    <ul>
+        <li>I like chocolate milk.</li>
+        <li> I like chocolate ice cream.</li>
+        <li>I like coffee.</li>
+    </ul>
+    <ol>
+        <li>I hate stupidity.</li>
+        <li>I hate ignorance.</li>
+        <li>I hate arrogance.</li>
+    </ol>
+</div>
+<!--The div element, also known as a division element, is a general purpose container for other elements.-->
+
+<!--Declare the Doctype of an HTML Document-->
+<!DOCTYPE html>
+<html>
+    <h1> Hello Crackheads!</h1>
+</html>
+
+<!--Define the Head and Body of an HTML DocumentPassed-->
+<head>
+    <link>
+    <meta>
+    <title></title>
+    <style></style>
+</head>
+<body>
+    <h1></h1>
+    <p></p>
+</body>
+
+Encore!
+<!-- Credit: Freecodecamp-->
+
